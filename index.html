@@ -6,11 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a5055c382.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Breathe & Relaxation</title>
 </head>
 <body>
-    <h1>Relaxer</h1>
+    <div class="page-title">
+        <h1>Relaxer</h1>
+    </div>
+    
+    <header class="header-container">
+        <div class="music-container">
+            <div class="music-info">
+                <h4 id="music-title">Music</h4>
+                <div class="progress-container">
+                    <div class="progress"></div>
+                </div>
+            </div>
+
+            <audio src="/music/Airstream - Electra.mp3" id="audio"></audio>
+
+            <div class="image-container">
+                <img src="/img/Sunset2.jpeg" alt="Frank Borell Space Fly Album Cover" id="cover">
+            </div>
+
+            <div class="navigation">
+                <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+                </button>
+                <button id="play" class="action-btn action-btn-large">
+                 <i class="fas fa-play"></i>
+                </button>
+                <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
 
     <div class="main-container">
         <div class="outer-circle"></div>
