@@ -20,12 +20,12 @@ body {
 .page-title {
   display: flex;
   position: absolute;
-  top: 0px;
-  left: 20px;
+  top: 5px;
+  left: 35px;
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 80px;
   margin-top: 0;
   letter-spacing: 5px;
   animation: fadeInAnimation ease 5s;
@@ -34,110 +34,6 @@ h1 {
   text-align: center;
 }
 
-.header-container {
-  width: 400px;
-  height: 100px;
-  position: absolute;
-  top: 75px;
-  right: 40px;
-}
-
-.music-container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  background-color: #fff;
-  box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
-  width: 400px;
-  height: 100px;
-  border-radius: 20px;
-  z-index: 10;
-}
-
-.image-container {
-  position: absolute;
-  height: 115px;
-  width: 115px;
-  left: 25px;
-  top: -30px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.image-container img {
-  display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
-}
-
-.navigation {
-  display: flex;
-  z-index: 1;
-  top: 28px;
-  right: 16px;
-  position: absolute;
-}
-
-.action-btn {
-  background-color: #fff;
-  border: 0;
-  color: #dfdbdf;
-  font-size: 20px;
-  cursor: pointer;
-  padding: 10px;
-  margin: 0 20px;
-}
-
-.action-btn-large {
-  color: #cdc2d0;
-  font-size: 25px;
-}
-
-.action-btn:focus {
-  outline: 0;
-}
-
-.music-info {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 15px 15px 0 0;
-  position: absolute;
-  top: 0;
-  left: 20px;
-  width: calc(100% - 40px);
-  padding: 10px 10px 10px 150px;
-  opacity: 0;
-  transform: translate(0%);
-  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
-}
-
-.music-info h4 {
-  margin: 0;
-}
-
-.music-container.play .music-info {
-  opacity: 1;
-  transform: translateY(-100%);
-}
-
-.progress-container {
-  background: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 10px 0;
-  height: 4px;
-  width: 100%;
-}
-
-.progress {
-  background-color: #fe8daa;
-  border-radius: 5px;
-  height: 100%;
-  width: 0%;
-  transition: width 0.1s linear;
-}
-
-/* Breathe Timer */
 p {
   font-size: 30px;
 }
